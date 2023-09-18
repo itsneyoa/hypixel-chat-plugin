@@ -15,7 +15,7 @@ public class Util {
 
     public static Component guildMessage(@NotNull String player, @NotNull String message) {
         return Component.text("Guild > ", Style.style(NamedTextColor.DARK_GREEN))
-                .append(Component.text(player + ":  " + message));
+                .append(Component.text(player + ": " + message));
     }
 
     public static Component officerMessage(@NotNull String player, @NotNull String message) {
